@@ -38,7 +38,7 @@ header .header-wrapper {
     text-decoration: none;
     color: #333;
   }
-  h1 {
+  h1,h2 {
     text-align: center;
   }
   .buttons {
