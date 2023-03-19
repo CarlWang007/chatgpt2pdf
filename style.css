@@ -1,0 +1,118 @@
+body {
+    margin: 20;
+    padding: 20;
+    font-size: 16px;
+    line-height: 1.3125;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    color: #1d2129;
+  }
+  
+
+
+header .header-wrapper {
+    display: flex;
+    justify-content: space-between; /*让logo和links水平排列*/
+    align-items: center; /*垂直居中*/
+  }
+  
+  header .logo {
+    width: 80px;
+
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* 设置两个图片之间的间距 */
+    margin-top: 20px; /* 可选项，设置按钮与上方元素的距离 */
+  }
+  
+  .buttons a {
+    display: block;
+    width: 150px; /* 可根据需要调整按钮宽度 */
+  }
+  
+  .buttons a img {
+    display: block;
+    width: 100%;
+  }
+  
+
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* 必须设置一个高度，以免图片无法居中 */
+    background-color: #f5f5f5; /* 可选项，用于设置图片周围的背景色 */
+  }
+  
+  .center-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* 可选项，用于设置图片的填充模式 */
+  }
+  
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232323;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #232323;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .contact a:hover {
+    background-color: #232323;
+    color: #fff;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    transform: scale(1.2);
+  }
+  
+  .text {
+    text-align: right;
+  }
+  
